@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ShareOnWhatsApp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share And Earn"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:textColor="@color/blue_700"/>
+
+    <Button
+        android:id="@+id/btn_share_on_whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share On Whats App And Earn"
+        android:background="@color/green_A700"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/icon_whatsapp_96"
+        android:layout_marginTop="@dimen/spacing_xxxlarge"/>
+
+
+    <Button
+        android:id="@+id/btn_share_on_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share On Facebook And Earn"
+        android:background="@color/indigo_700"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/icon_facebook_96"
+        android:layout_marginTop="@dimen/spacing_xxxlarge"/>
+
+</LinearLayout>

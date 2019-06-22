@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/icon_responsive_96"
+            android:title="Dashboard" />
+    </group>
+
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/icon_wallet_96"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/icon_people_96"
+            android:title="Team" />
+        <item
+            android:id="@+id/nav_add_new"
+            android:icon="@drawable/icon_add_user_group_man_man_96"
+            android:title="Add User" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/icon_withdrawal_96"
+            android:title="Withdraw" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/icon_online_shop_96"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/icon_shopping_cart_96"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/icon_new_product_96"
+            android:title="Add Product" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/icon_attendance_96"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/icon_task_96"
+            android:title="Taks" />
+    </group>
+
+    <item
+        android:checkableBehavior="single"
+        android:title="All labels">
+
+        <group
+            android:id="@+id/grp_3"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/icon_faq_96"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_company"
+                android:icon="@drawable/icon_company_96"
+                android:title="Company" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/icon_connect_96"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/icon_duplicate_contacts_96"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_add_contact"
+                android:icon="@drawable/icon_contact_96"
+                android:title="Add Contact" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/icon_star_rating_96"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_shutdown_96"
+                android:title="Logout" />
+        </group>
+    </item>
+
+    <!--<group-->
+        <!--android:id="@+id/grp_4"-->
+        <!--android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/partner_login"-->
+            <!--android:icon="@drawable/icon_settings_96"-->
+            <!--android:title="Partner Login" />-->
+        <!--<item-->
+            <!--android:id="@+id/partner_logout"-->
+            <!--android:icon="@drawable/icon_help_line_96"-->
+            <!--android:title="Partner Logout" />-->
+    <!--</group>-->
+
+    <group
+        android:id="@+id/grp_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_settings_96"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/icon_help_line_96"
+            android:title="Help &amp; Feedback" />
+    </group>
+
+</menu>
